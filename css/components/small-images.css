@@ -1,0 +1,13 @@
+.small-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+}
+
+.small-images>img {
+  width: 30%;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}

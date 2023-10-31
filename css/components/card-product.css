@@ -1,0 +1,35 @@
+.card-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative
+}
+
+.card-product>i {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 32px;
+  color: rgb(251, 163, 178)
+}
+
+.card-product>img {
+  margin: 40px 80px;
+  width: 140px;
+  height: 245px;
+}
+
+.card-product-description {
+  flex-grow: 1;
+  margin-left: 80px;
+}
+
+.stars>i {
+  color: orange;
+  font-size: 32px;
+}
+
+.card-product-description p {
+  margin-bottom: 32px;
+  color: grey;
+}
